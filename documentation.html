@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- Nav_bar -->
+<div class="navbar">
+    <div class="flex-row">
+
+        <h1 class="logo"><a href="./index.html">🔥AGNI UI</a></h1>
+
+        <ul class="li flex-row">
+            <li><a href='index.html'>Home</a></li>
+            <li><a href="#get-started">Installation</a></li>
+            <li><a href="./documentation.html" class="underline">Documentation</a></li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+<div class="doc-container">
+    <div class="flex-2-col">
+    
+        <div class="left">
+            <div class="left-nav">
+                
+                <h1 class="h1-style">Components</h1>
+                <ul class="p-style">
+                    <li>Avatar</li>
+                    <li>Badge</li>
+                    <li>Alert</li>
+                    <li>Button</li>
+                    <li>Card</li>
+                    <li>Image</li>
+                    <li>Input</li>
+                    <li>Text Utilities</li>
+                    <li>Lists</li>
+                    <li>Navigation</li>
+                    <li>Modal</li>
+                    <li>Rating</li>
+                    <li>Toast/Notify/Snackbar</li>
+                    <li>Simplified Grid</li>
+                    <li>Navigation</li>
+                    <li>Slider</li>
+                    </ul>
+                </ul>
+                
+
+            </div>
+        </div>
+
+
+        <div class="right-content">
+            <div id="quick-start">
+                <h1 class="h1-style">Introduction</h1>
+                <p class="p-style"> Agni UI is an open source and easy to use CSS component library.
+                    It helps developers with all experience levels to quickly build components by just adding classes. Now complete your dream project
+                    rapidly and focus more on logic than styling.
+                </p>
+
+                <h1 class="h1-style">Installation</h1>
+                <p class="p-style">In order to use Agni UI in your projects , simply copy the one-line code below and paste 
+                    it in the < head > section of your html</p>
+            </div>
+
+            <hr>
+
+            <!-- avatar -->
+
+            <div id="avatar">
+
+                <h1 class="h1-style">Avatars</h1>
+                <p class="p-style">Avatars are images that users can set as 
+                    their profile picture. They can be custom photos, uploaded by users, or generated as
+                    Identicons as a placeholder.</p>
+
+                <h2 class="h2-style">Default Avatar</h2>
+                <p class="p-style">The default avatar is round in shape and to create avatar you can simply add the <span style="font-weight: bold;">avatar</span> class. 
+                There are three different sizes available and you can choose between <span style="font-weight: bold;"> avatar-lg | avatar-md | avatar-sm </span></p>
+                
+                <div class="display flex-row flex-row-display">
+                    
+                        <img class ="avatar avatar-lg" src="./Images/img_avatar.png" alt="avatar">
+                        <img class ="avatar avatar-md" src="./Images/img_avatar.png" alt="avatar">
+                        <img class ="avatar avatar-sm" src="./Images/img_avatar.png" alt="avatar">
+                    
+                </div>
+
+                <div class="flex-row code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%2520%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%2520%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%2520%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 873px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="h2-style">Square Avatar</h2>
+                <p class="p-style">The square avatar is square in shape and to create avatar you can simply add the <span style="font-weight: bold;">square-avatar</span> class. 
+                There are three different sizes available and you can choose between <span> avatar-lg | avatar-md | avatar-sm </span></p>
+
+                <div class="display flex-row flex-row-display">
+                    <img class ="square-avatar avatar-lg" src="./Images/img_avatar.png" alt="avatar">
+                    <img class ="square-avatar avatar-md" src="./Images/img_avatar.png" alt="avatar">
+                    <img class ="square-avatar avatar-sm" src="./Images/img_avatar.png" alt="avatar">
+                </div>
+                
+                <div class="flex-row code-snippet">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%2520%253D%2522square-avatar%2520avatar-lg%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%2520%253D%2522square-avatar%2520avatar-md%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%253Cimg%2520class%2520%253D%2522square-avatar%2520avatar-sm%2522%2520src%253D%2522.%252FImages%252Fimg_avatar.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 873px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- badge -->
+
+            <div id="badge">
+                <h1 class="h1-style">Badge</h1>
+                <p class="p-style">Badges are small circle to display status, some count etc depending on where they are used.
+                    They are usually positined on the top right or bottom right of the parent component.
+                </p>
+
+                <h2 class="h2-style">Profile Badge</h2>
+                <p class="p-style">
+                    Profile badge is used to display the current status of the user.
+                    It has 3 variants <span>online | offline | dnd </span> 
+                    We need to give class of <span>badge</span> to parent element and variant class on the child element.
+                </p>
+                
+                <div class="display flex-row flex-row-display">
+                        <div class="badge">
+                            <img class ="" src="./Images/profile.png" alt="avatar"> 
+                            <div class="online"></div>
+                        </div>
+
+                        <div class="badge">
+                            <img class ="" src="./Images/profile.png" alt="avatar">
+                            <div class="offline"></div>
+                        </div>
+
+                        <div class="badge">
+                            <img class ="" src="./Images/profile.png" alt="avatar">
+                            <div class="dnd"></div>
+                        </div>
+                        
+                    
+                </div>
+
+                <div class="flex-row code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FImages%252Fprofile.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FImages%252Fprofile.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FImages%252Fprofile.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 873px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
+                <h2 class="h2-style">Number Badge</h2>
+                <p class="p-style">
+                    Number badge is used to show the number of new items present in the parent element.
+                    We need to give class of <span>badge</span> to parent element and variant class on the child element.
+                </p>
+                
+                <div class="display flex-row flex-row-display">
+                        <div class="badge">
+                            <span class="material-icons md-48">home</span>
+                            <div class="number-red">6</div>
+                        </div>
+
+                        <div class="badge">
+                            <span class="material-icons md-48">shopping_cart</span>
+                            <div class="number-red">12</div>
+                        </div>
+
+                        <div class="badge">
+                            <span class="material-icons md-48">email</span>
+                            <div class="number-blue">99</div>
+                        </div>
+                        
+                    
+                </div>
+
+                <div class="flex-row code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520md-48%2522%253Ehome%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-red%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520md-48%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-red%2522%253E12%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520md-48%2522%253Eemail%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number-blue%2522%253E99%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 873px; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- Alert -->
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<!-- Footer
+<div class="footer flex-row">
+    <h1>Made with lots of < / > and Coffe by Yogesh Gupta</h1>
+    <div class="social" id="social">
+        <a href="https://github.com/yogesh-">
+            <img class="icons" src="./Images/github.png">
+        </a>
+        <a href="https://twitter.com/yo_gupta">
+            <img class="icons" src="./Images/twitter.png">
+        </a>
+        <a href="https://www.linkedin.com/in/yogupta/">
+            <img class="icons" src="./Images/linkedin.png">
+        </a>
+    </div>
+
+    <p>&#169; 2022 Agni UI Pvt Ltd</p>
+
+</div> -->
+
+</body>
+</html>

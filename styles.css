@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url(./components.css);
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Nunito',sans-serif;
+    color: #333;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+/* Utilities */
+
+.flex-2-col{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* navbar */
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    padding: 0 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color: blueviolet;
+    font-size: 2rem;
+    width: 100vw;
+}
+
+.logo a{
+    color: orangered;
+}
+
+/* Hero Section */
+
+.hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50rem;
+    width: 100vw;
+}
+
+.hero .hero-text{
+    justify-content: flex-start;
+    margin-left: 15rem;
+
+}
+
+
+.hero .hero-text .cta{
+    margin-top: 2rem;
+}
+
+.btn{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.primary{
+    background:blueviolet;
+    color: white;
+}
+
+.second{
+    color: blueviolet;
+}
+/* Get Started */
+
+.get-started{
+    flex-direction: column;
+    padding: 3rem 0 2rem 0;
+}
+
+/* Footer */
+
+.footer{
+    height: 10rem;
+    width: 100vw;
+    background-color:blueviolet;
+    flex-direction: column;
+    margin: 0rem auto;
+    color: white;
+}
+
+.icons{
+    height: 4rem;
+    width: 4rem;
+}
+
+.h1-style{
+    padding: 2rem 0rem 2rem 0rem;
+    font-size: 3rem;
+}
+
+.h2-style{
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.get-started h1{
+    border-bottom: 0.2rem solid blue;
+}
+
+.p-style{
+    line-height: 4rem;
+    font-size: 2.4rem;
+}
+
+.p-style1{
+    line-height: 2rem;
+    font-size: 2.4rem;
+}
+
+.underline{
+    border-bottom: 0.3rem solid orangered;
+}
+
+
+
+/* Documentation Page */
+
+.doc-conatiner{
+    /* background: peachpuff; */
+    /* width: 80%; */
+    /* margin: 0rem 5rem 0rem 5rem; */
+    /* height: 50rem; */
+}
+
+.left{
+    /* background-color: papayawhip; */
+    /* border: 2px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    background: brown; */
+    
+    
+}
+
+.right-content{
+    /* background-color: peachpuff; */
+    margin: 2rem 2rem;
+    overflow-y:scroll;
+    overflow-y: scroll;
+    
+
+    /* width: 75%; */
+    /* height: 100vh; */
+}
+
+.right-content h1, .right-content p,.right-content h2{
+    margin-left: 4rem;
+}
+
+.left-nav h1,.left-nav li{
+    margin-left: 4rem;
+}
+
+.left-nav ul{
+    margin-left: 2.5rem;
+}
+
+.right-content hr{
+    margin: 0rem 1.5rem;
+}
+
+.display{
+    border: 0.2rem solid blueviolet;
+    margin: 2rem 2rem;
+    border-radius: 0.4rem;
+}
+
+.flex-row-display{
+    justify-content: center;
+    vertical-align: center;
+    /* background: chartreuse; */
+    column-gap: 3rem;
+    padding: 2rem 0rem;
+  }
+
+   .code-snippet iframe{
+       width: 100%;
+       margin: 2rem 0rem;
+   }
+
+   span{
+       font-weight: bold;
+   }
+
+   .material-icons.md-48 { font-size: 48px; }
