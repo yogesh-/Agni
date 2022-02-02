@@ -1,0 +1,110 @@
+
+/* Alert */
+
+.alert{
+height: 4rem;
+/* width: 100%; */
+color: white;
+margin: 2rem 2rem;
+border-radius: 0.5rem;
+padding: 1rem 2rem;
+font-size: 1.5rem;
+}
+
+.primary{
+background-color: blueviolet;
+}
+
+.error{
+    background-color: red;
+}
+
+.success{
+    background-color: green;
+}
+
+.warning{
+    background-color:  #ff9800;
+}
+
+.primary-outline{
+    border: 0.2rem solid blueviolet;
+    color: blueviolet;
+}
+
+.error-outline{
+    border: 0.2rem solid red;
+    color: red;
+}
+
+.success-outline{
+    border: 0.2rem solid green;
+    color: green;
+}
+
+.warning-outline{
+    border: 0.2rem solid  #ff9800;
+    color:  #ff9800;
+}
+
+
+/* Buttons */
+
+.btn{
+    background: blueviolet;
+    color: white;
+}
+
+.btn:hover, .icon-btn:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.btn-primary{
+    background: lightskyblue;
+    color: black;
+}
+
+.btn-secondary{
+color: black;
+background: white;
+}
+
+.btn-error{
+background: red;
+color: white;
+}
+
+.btn-success{
+    background: green;
+    color: white;
+}
+
+.outline{
+    color: blueviolet;
+    border: 0.2rem solid blueviolet;
+    background: none;
+}
+
+.outline-primary{
+    color: lightskyblue;
+    background: none;
+    border: 0.2rem solid lightskyblue;
+}
+
+.outline-error{
+    color: red;
+    background: none;
+    border: 0.2rem solid red;
+}
+
+.outline-success{
+    color: green;
+    background: none;
+    border: 0.2rem solid green;
+}
+
+.icon-btn{
+    background: none;
+    border: none;
+}
