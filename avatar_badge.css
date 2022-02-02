@@ -28,7 +28,7 @@
     position: relative;
   }
   
-  .online{
+  .online, .offline{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -40,17 +40,9 @@
   }
   
   .offline{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-    right: 0;
-    bottom: 8%;
-    border: 3px solid white;
-  }
+    background-color: red;}
   
-  .dnd{
+  .dont-disturb{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -79,5 +71,4 @@
   }
   
   .number-blue{
-    background-color: blue;
-}
+    background-color: blue;}
