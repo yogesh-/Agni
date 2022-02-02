@@ -1,0 +1,95 @@
+.avatar{
+    border-radius: 50%;
+  }
+  
+  .square-avatar{
+    border-radius: 0.2rem;
+  }
+  
+  .avatar-lg{
+    height: 14rem;
+    width: 14rem;
+  }
+  
+  .avatar-md{
+    height: 9rem;
+    width: 9rem;
+  }
+  
+  .avatar-sm{
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  
+  /* badge */
+  
+  .badge{
+    position: relative;
+  }
+  
+  .online{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    border: 3px solid white;
+  }
+  
+  .offline{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    border: 3px solid white;
+  }
+  
+  .dnd{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    border: 3px solid white;
+  }
+  
+  
+  .number-red{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: -5%;
+    top: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+  }
+  
+  .number-blue{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    right: -5%;
+    top: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+  }
