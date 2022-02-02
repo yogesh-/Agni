@@ -62,7 +62,7 @@
   }
   
   
-  .number-red{
+  .number-red, .number-blue{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -79,17 +79,5 @@
   }
   
   .number-blue{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
     background-color: blue;
-    position: absolute;
-    right: -5%;
-    top: 8%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    
-  }
+}
