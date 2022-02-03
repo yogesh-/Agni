@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url(./css/alert_button.css);
 @import url(./css/avatar_badge.css);
+@import url(./css/card.css);
 
 * {
     box-sizing: border-box;
