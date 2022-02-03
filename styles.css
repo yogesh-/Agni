@@ -2,7 +2,6 @@
 @import url(./avatar_badge.css);
 @import url(./alert_button.css);
 
-
 * {
     box-sizing: border-box;
     margin:0;
@@ -172,14 +171,9 @@ ul{
 
 
 .right-content{
-    /* background-color: peachpuff; */
     margin: 2rem 2rem;
     overflow-y:scroll;
     overflow-y: scroll;
-    
-
-    /* width: 75%; */
-    /* height: 100vh; */
 }
 
 .right-content h1, .right-content p,.right-content h2{
