@@ -49,9 +49,11 @@ background-color: blueviolet;
 
 /* Buttons */
 
-.btn{
+.btn,.link-btn{
     background: blueviolet;
     color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .btn:hover, .icon-btn:hover{
@@ -106,4 +108,14 @@ color: white;
 .icon-btn{
     background: none;
     border: none;
+}
+
+
+.fab-btn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: blueviolet;
+    box-shadow: 0rem 0.6rem 0.5rem #aaaaaa;
+    color: white;
 }
