@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-@import url(./components.css);
+@import url(./avatar_badge.css);
+@import url(./alert_button.css);
+
 
 * {
     box-sizing: border-box;
@@ -52,6 +54,11 @@ a {
     padding: 0 1rem;
 }
 
+.hero-text a{
+    margin: 0rem 1rem 0rem 0rem;
+    padding: 0rem;
+}
+
 ul{
     list-style: none;
 }
@@ -86,19 +93,25 @@ ul{
     margin-top: 2rem;
 }
 
-.btn{
+.btn-home{
     padding: 1rem 1.5rem 1rem 1.5rem;
     border-radius: 0.5rem;
 }
 
-.primary{
+.btn-home:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.btn-primary-home{
     background:blueviolet;
     color: white;
 }
 
-.second{
+.btn-second-home{
     color: blueviolet;
 }
+
 /* Get Started */
 
 .get-started{
