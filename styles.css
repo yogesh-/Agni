@@ -7,6 +7,11 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    --main-primary-color:#8a2be2;
+    --card-outline:#000000;
+    --font-color-special:#FFFFFF;
+    --card-font-background:#FF0000;
+    --main-logo-color:#ff4500;
 
 }
 
@@ -49,7 +54,7 @@ body{
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--font-color-special);
     margin: 0 2rem;
     padding: 0 1rem;
 }
@@ -64,13 +69,13 @@ ul{
 }
 
 .navbar{
-    background-color: blueviolet;
+    background-color: var(--main-primary-color);
     font-size: 2rem;
     width: 100vw;
 }
 
 .logo a{
-    color: orangered;
+    color: var(--main-logo-color);
 }
 
 /* Hero Section */
@@ -104,12 +109,12 @@ ul{
 }
 
 .btn-primary-home{
-    background:blueviolet;
-    color: white;
+    background:var(--main-primary-color);
+    color:var(--font-color-special);
 }
 
 .btn-second-home{
-    color: blueviolet;
+    color: var(--main-primary-color);
 }
 
 /* Get Started */
@@ -124,10 +129,10 @@ ul{
 .footer{
     height: 10rem;
     width: 100vw;
-    background-color:blueviolet;
+    background-color:var(--main-primary-color);
     flex-direction: column;
     margin: 0rem auto;
-    color: white;
+    color: var(--font-color-special);
 }
 
 .icons{
@@ -147,7 +152,7 @@ ul{
 }
 
 .get-started h1{
-    border-bottom: 0.2rem solid blue;
+    border-bottom: 0.2rem solid #0000ff;
 }
 
 .p-style{
@@ -161,7 +166,7 @@ ul{
 }
 
 .underline{
-    border-bottom: 0.3rem solid orangered;
+    border-bottom: 0.3rem solid var(--main-logo-color);
 }
 
 
@@ -194,7 +199,7 @@ ul{
 }
 
 .display{
-    border: 0.2rem solid blueviolet;
+    border: 0.2rem solid var(--main-primary-color);
     margin: 2rem 2rem;
     border-radius: 0.4rem;
 }
