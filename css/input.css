@@ -1,0 +1,49 @@
+
+.form,.form-err,.radio,.checkbox{
+    width: 20rem;
+    align-items: center;
+    border: 0.2rem solid var(--main-primary-color);
+    background: #778899;
+    border-radius: 0.3rem;
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form :is(input,button){
+    margin: 1rem 0rem;
+}
+
+.form-err :is(input,button,p){
+    margin: 1rem 0rem;
+}
+
+.radio input, .checkbox input{
+margin: 1rem 0rem 1rem 2rem;
+}
+
+.form input,.form-err input{
+    height: 3rem;
+}
+
+.form-err{
+    background: var(--font-color-special);
+}
+
+.input-err,.input-err input[type=password]{
+    color: var(--card-font-background);
+}
+
+input[type=password]{
+    border: 0.2rem solid;
+}
+
+.radio,.checkbox{
+    background: var(--font-color-special);
+    font-weight: bold;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    
+}
