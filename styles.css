@@ -2,6 +2,8 @@
 @import url(./css/alert_button.css);
 @import url(./css/avatar_badge.css);
 @import url(./css/card.css);
+@import url(./css/image.css);
+@import url(./css/input.css);
 
 * {
     box-sizing: border-box;
