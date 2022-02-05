@@ -190,7 +190,7 @@ ul {
 }
 
 .flex-2-col .left {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
 }
