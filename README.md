@@ -16,6 +16,5 @@
   <link
       rel="stylesheet"
       href="https://agniui.netlify.app/styles.css"
-    /> 
-    ```
+   />
 
