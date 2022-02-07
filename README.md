@@ -29,7 +29,7 @@
 - [Card](#card)
 - [Image](#image)
 - [Input](#input)
-- [Text Utilities](#Text Utilities)
+- [Text Utilities](#Text_Utilities)
 - [Grid](#grid)
 - [Snackbar](#snackbar)
 
@@ -120,7 +120,7 @@ You will find the following types of *Input* on https://agniui.netlify.app/docum
 
 ---
 
-### Text Utilities
+### Text_Utilities
 
 Text utility classes can be used on any element for text modification/alignment, element placement, or to adjust padding and margin etc.
 
