@@ -62,6 +62,12 @@
                         <li>
                             <a class="component-links" href="#text_utilities">Text Utilities</a>
                         </li>
+                        <li>
+                            <a class="component-links" href="#grid">Grid</a>
+                        </li>
+
+
+
                         <!-- <li>Text Utilities</li>
                         <li>Lists</li>
                         <li>Navigation</li>
@@ -1149,7 +1155,80 @@
 
                 <hr>
 
+                <!-- Grid -->
 
+                <div id="grid">
+                    <h1 class="h1-style">Grid</h1>
+                    <p class="p-style">The CSS Grid Layout Module offers a grid-based layout system,
+                        with rows and columns, making it easier to design web
+                        pages without having to use floats and positioning.
+
+                    </p>
+
+                    <!-- 2 column grid -->
+
+                    <div class="card1">
+                        <h2 class="h2-style">Grid - Two Column</h2>
+                        <p class="p-style">The most used grid layout is of two equal columns grid layout.
+                            You can use <span>grid-2-col</span> class to create two column grid layout.<br>
+                            Also, to give gap between columns use class of <span>col-gap</span>.
+
+                        </p>
+
+                        <div class="display">
+
+                            <div class="grid-2-col col-gap">
+                                <div class="grid-item text-center text-md">This is column 1</div>
+                                <div class="grid-item text-center text-md">This is column 2</div>
+                            </div>
+
+                        </div>
+
+                        <div class="flex-row code-snippet">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522grid-2-col%2520col-gap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520text-center%2522%253EThis%2520is%2520column%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520text-center%2522%253EThis%2520is%2520column%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                style="width: 873px; height: 143px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- 3 column grid -->
+
+                    <div class="card1">
+                        <h2 class="h2-style">Grid - Three Column</h2>
+                        <p class="p-style">Another useful grid layout is three equal column layout.
+                            You can use <span>grid-3-col</span> class to create three column layout in grid.
+                            Also, to give gap between columns use class of <span>col-gap</span>.
+
+                        </p>
+
+                        <div class="display">
+
+                            <div class="grid-3-col col-gap">
+                                <div class="grid-item text-center text-md">This is column 1</div>
+                                <div class="grid-item text-center text-md">This is column 2</div>
+                                <div class="grid-item text-center text-md">This is column 3</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex-row code-snippet">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522grid-3-col%2520col-gap%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520text-center%2520text-md%2522%253EThis%2520is%2520column%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520text-center%2520text-md%2522%253EThis%2520is%2520column%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520text-center%2520text-md%2522%253EThis%2520is%2520column%25203%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E"
+                                style="width: 873px; height: 165px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+
+                    </div>
+
+                </div>
 
             </div>
 
