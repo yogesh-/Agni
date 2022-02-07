@@ -6,7 +6,10 @@
   Quick & Easy UI library for everyone.
   </p>
   
-  #Quick Start
+  ---
+  
+  ##Quick Start
+  
   To start using the components in your project, Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
   
   ```
