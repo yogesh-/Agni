@@ -6,6 +6,7 @@
 @import url(./css/input.css);
 @import url(./css/text_utilities.css);
 @import url(./css/grid.css);
+@import url(./css/snackbar.css);
 
 * {
   box-sizing: border-box;
@@ -17,6 +18,7 @@
   --card-font-background: #ff0000;
   --main-logo-color: #ff4500;
   --gray-text: #6c757d;
+  --charcoal-black: #333333;
 }
 
 html {

@@ -1,0 +1,12 @@
+.snackbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  width: 40rem;
+  background: var(--charcoal-black);
+  color: var(--font-color-special);
+  padding: 2rem 0rem;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
