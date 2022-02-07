@@ -16,7 +16,8 @@
   <link
       rel="stylesheet"
       href="https://agniui.netlify.app/styles.css"
-   />```
+   />
+  ```
 
 ### Posh UI contains the following components
 
