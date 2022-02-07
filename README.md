@@ -152,10 +152,6 @@ You will find the *Snackbar* on https://agniui.netlify.app/documentation.html#sn
 
 ---
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1SsyLgEoJZFF-OrFW7o82qUvLJjEpCdEr/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-<a href="{https://drive.google.com/file/d/1SsyLgEoJZFF-OrFW7o82qUvLJjEpCdEr/view?usp=sharing}" title="Link Title"></a>
+![agni ui](images/Agni UI - Google Chrome 2022-02-08 01-34-30.mp4)
 
 
