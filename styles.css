@@ -5,6 +5,7 @@
 @import url(./css/image.css);
 @import url(./css/input.css);
 @import url(./css/text_utilities.css);
+@import url(./css/grid.css);
 
 * {
   box-sizing: border-box;
@@ -239,7 +240,7 @@ span {
   background: var(--main-logo-color);
   cursor: pointer;
   color: var(--font-color-special);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 /* @media only screen and (max-width: 600px) {

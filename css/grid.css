@@ -1,0 +1,21 @@
+.grid-2-col,
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 15rem;
+  padding: 2rem;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  height: 10rem;
+  border: 0.2rem dotted #333333;
+  margin: 5rem 0rem;
+}
+
+.col-gap {
+  gap: 1rem;
+}
