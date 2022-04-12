@@ -1,0 +1,33 @@
+.simple-list,
+.notification-list {
+  width: 20rem;
+  height: 20rem;
+  border: 0.2rem solid var(--main-primary-color);
+  border-radius: 0.3rem;
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.notification-list {
+  width: 35rem;
+  height: 40rem;
+}
+
+.list-heading {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.list-items {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.display .simple-list hr,
+.display .notification-list hr {
+  width: 80%;
+  margin: 1rem 2rem;
+}
