@@ -19,7 +19,7 @@
    />
   ```
 
-### Posh UI contains the following components
+### AGNI UI contains the following components
 
 
 - [Avatar](#avatar)
