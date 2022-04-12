@@ -8,6 +8,7 @@
 @import url(./css/grid.css);
 @import url(./css/snackbar.css);
 @import url(./css/lists.css);
+@import url(./css/modal.css);
 
 * {
   box-sizing: border-box;
