@@ -74,6 +74,15 @@
                         <li>
                             <a class="component-links" href="#modalaction">Modal</a>
                         </li>
+                        <li>
+                            <a class="component-links" href="#rating">Rating</a>
+                        </li>
+                        <li>
+                            <a class="component-links" href="#slider">Slider</a>
+                        </li>
+                        <li>
+                            <a class="component-links" href="#navigation">Navigation</a>
+                        </li>
 
 
 
@@ -1442,6 +1451,76 @@
                 </div>
                 <hr>
 
+                <!-- Rating -->
+                <div id="rating">
+
+                    <h1 class="h1-style">Rating</h1>
+                    <p class="p-style">Rating component allows a user to interact with an UI to give rating for the
+                        product or service used.Input is easy and user just needs to tap instead of manually typing the
+                        rating number.
+                        It is mostly found on ecommerce websites and other places for feedback from customers.
+
+                    </p>
+
+                    <p class="p-style">Use class of <span>star-rating</span> on the main class and class of
+                        <span>star</span> for each individual stars. The remaining class is for fetching the icons.
+                    </p>
+
+                    <div class="display flex-row">
+                        <div class="star_rating flex-row">
+                            <p class="h3">Please give rating</p>
+                            <i class="material-icons star" id="star1">star</i>
+                            <i class="material-icons star" id="star2">star</i>
+                            <i class="material-icons star" id="star3">star</i>
+                            <i class="material-icons star" id="star4">star</i>
+                            <i class="material-icons star" id="star5">star</i>
+                        </div>
+                    </div>
+
+                    <div class="flex-row code-snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522star_rating%2520flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h3%2522%253EPlease%2520give%2520rating%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star1%2522%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star2%2522%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star3%2522%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star4%2522%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520star%2522%2520id%253D%2522star5%2522%253Estar%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 874px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                </div>
+                <hr>
+
+                <!-- Slider -->
+                <div id="slider">
+
+                    <h1 class="h1-style">Slider</h1>
+                    <p class="p-style">Sliders are used to give a particular input usually within a range to UI without
+                        the need to enter any text.
+                    </p>
+
+                    <p class="p-style">Use class of <span>slider-container</span> on the main class and class of
+                        <span>simple-slider</span> for the slider with minimum and maximum values.
+                    </p>
+
+                    <div class="display flex-row">
+                        <div class="slider-container flex-col">
+                            <p class="h3">A simple slider</p>
+                            <input type="range" id="slider" name="slider" class="simple-slider" min="0" max="400"
+                                value="200" oninput="sliderChange(this.value)" />
+                            <p class="h4" id="output"></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-row code-snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522slider-container%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h3%2522%253EA%2520simple%2520slider%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520id%253D%2522slider%2522%2520name%253D%2522slider%2522%2520class%253D%2522simple-slider%2522%2520%2509%2509%2509%2509%2509%2509%2509%2509min%253D%25220%2522%2520max%253D%2522400%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520value%253D%2522200%2522%2520oninput%253D%2522sliderChange%28this.value%29%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h4%2522%2520id%253D%2522output%2522%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 874px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                </div>
+                <hr>
 
 
             </div>
@@ -1507,6 +1586,29 @@
     var closeBtn = document.getElementsByClassName("close")[0];
     closeBtn.onclick = function () {
         modal.style.display = "none"
+    }
+
+    // For Rating
+
+    const allstars = document.querySelectorAll(".star");
+
+    allstars.forEach((star, i) => {
+        star.addEventListener("click", () => {
+            let current_star_level = i + 1;
+            allstars.forEach((star, j) => {
+                if (current_star_level >= j + 1) {
+                    star.style.color = "orange";
+                } else {
+                    star.style.color = "";
+                }
+            });
+        });
+    });
+
+    // For Slider
+
+    function sliderChange(val) {
+        document.getElementById('output').innerHTML = `The selected value is ${val}`;
     }
 </script>
 
