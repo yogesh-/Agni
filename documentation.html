@@ -71,6 +71,9 @@
                         <li>
                             <a class="component-links" href="#lists">Lists</a>
                         </li>
+                        <li>
+                            <a class="component-links" href="#modalaction">Modal</a>
+                        </li>
 
 
 
@@ -1393,14 +1396,69 @@
                     </p>
 
                 </div>
+                <hr>
+
+                <!-- Modal -->
+                <div id="modalaction">
+
+                    <h1 class="h1-style">Modal</h1>
+                    <p class="p-style">Modal displays content which blocks the main view of the UI and it would be
+                        closed only if user cancels
+                        or interacts with the modal. It is to be used as much less as possible as it breaks the flow of
+                        the user.
+
+                    </p>
+
+                    <p class="p-style">Use class of <span>simple-list</span> on the main class and class of
+                        <span>list-items</span> for
+                        the items in the list.
+                    </p>
+
+                    <div class="display flex-row">
+                        <div class="modal-button-display">
+                            <button class="btn btn-primary" id="modalButton">Modal Button</button>
+                        </div>
+                        <!-- </div> -->
+
+                        <div id="myModal" class="popModal">
+                            <div class="modal-content flex-col">
+                                <p class="h2">Alert</p>
+                                <p class="h4">Getting tested for covid19 is mandatory before your flight.</p>
+                                <span class="close">&times;</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="flex-row code-snippet">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=873.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522simple-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253EA%2520Simple%2520List%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EList%2520Item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EList%2520Item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EList%2520Item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-items%2522%253EList%2520Item%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 874px; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                </div>
+                <hr>
 
 
 
             </div>
 
+
+
             </p>
+
         </div>
-        </p>
+        <hr>
+
+
+    </div>
+
+    </p>
+    </div>
+    </p>
     </div>
     </div>
     </div>
@@ -1435,6 +1493,20 @@
         } else {
             tempo.style.display = "none";
         }
+    }
+
+    // for modal
+
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("modalButton");
+
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    var closeBtn = document.getElementsByClassName("close")[0];
+    closeBtn.onclick = function () {
+        modal.style.display = "none"
     }
 </script>
 
