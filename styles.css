@@ -191,8 +191,7 @@ ul {
 
 .right-content {
   margin: 2rem 2rem;
-  overflow-y: scroll;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .right-content h1,
@@ -202,7 +201,8 @@ ul {
 }
 
 .left-nav {
-  overflow-y: hidden;
+  overflow: auto;
+  height: 60rem;
 }
 .left-nav h1,
 .left-nav li {
