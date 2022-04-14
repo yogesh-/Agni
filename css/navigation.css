@@ -1,0 +1,72 @@
+.navigation-simple {
+  margin: 2rem;
+}
+
+.navigation-simple li a:hover {
+  color: var(--main-logo-color);
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  left: 52%;
+  background-color: var(--main-logo-color);
+  width: 30%;
+  z-index: 1;
+  color: var(--charcoal-black);
+}
+
+.submenu-content a:hover {
+  color: var(--charcoal-black);
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+}
+
+.sidepanel {
+  height: 30rem;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--gray-text);
+  overflow-x: hidden;
+  padding-top: 6rem;
+  transition: 0.5s;
+}
+
+.sidepanel a {
+  padding: 1rem 1rem 1rem 3rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--font-color-special);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: var(--main-logo-color);
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  font-size: 3.6rem;
+  margin-left: 5rem;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--card-outline);
+  color: var(--font-color-special);
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: var(--charcoal-black);
+}
