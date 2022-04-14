@@ -10,6 +10,7 @@
 @import url(./css/lists.css);
 @import url(./css/modal.css);
 @import url(./css/rating_slider.css);
+@import url(./css/navigation.css);
 
 * {
   box-sizing: border-box;
@@ -33,6 +34,7 @@ body {
   color: #333;
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 /* Utilities */
@@ -174,12 +176,24 @@ ul {
   border-bottom: 0.3rem solid var(--main-logo-color);
 }
 
+/* Scrollbars */
+
+::-webkit-scrollbar {
+  height: 1rem;
+  width: 0.5rem;
+  background: var(--main-primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-logo-color);
+  border-radius: 0.5rem;
+}
+
 /* Documentation Page */
 
 .right-content {
   margin: 2rem 2rem;
-  overflow-y: scroll;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 .right-content h1,
@@ -189,7 +203,8 @@ ul {
 }
 
 .left-nav {
-  overflow-y: hidden;
+  overflow: auto;
+  height: 50rem;
 }
 .left-nav h1,
 .left-nav li {
@@ -219,7 +234,6 @@ ul {
 .flex-row-display {
   justify-content: center;
   vertical-align: center;
-  /* background: chartreuse; */
   column-gap: 3rem;
   padding: 2rem 0rem;
 }
