@@ -1653,8 +1653,6 @@
                     </div>
 
                 </div>
-                <hr>
-
             </div>
 
 
@@ -1741,6 +1739,17 @@
 
     function sliderChange(val) {
         document.getElementById('output').innerHTML = `The selected value is ${val}`;
+    }
+
+    // For drawer navigation
+
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+    }
+
+    /* Set the width of the sidebar to 0 (hide it) */
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
     }
 </script>
 

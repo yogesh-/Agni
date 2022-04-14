@@ -10,6 +10,7 @@
 @import url(./css/lists.css);
 @import url(./css/modal.css);
 @import url(./css/rating_slider.css);
+@import url(./css/navigation.css);
 
 * {
   box-sizing: border-box;
