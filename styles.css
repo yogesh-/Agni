@@ -31,10 +31,11 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #333;
+  color: var(--charcoal-black);
   height: 100%;
   width: 100%;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 /* Utilities */

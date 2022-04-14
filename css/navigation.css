@@ -33,14 +33,14 @@
   left: 0;
   background-color: var(--gray-text);
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 6rem;
   transition: 0.5s;
 }
 
 .sidepanel a {
   padding: 1rem 1rem 1rem 3rem;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2.5rem;
   color: var(--font-color-special);
   display: block;
   transition: 0.3s;
@@ -53,9 +53,9 @@
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 2.5rem;
+  font-size: 3.6rem;
+  margin-left: 5rem;
 }
 
 .openbtn {
@@ -63,7 +63,7 @@
   cursor: pointer;
   background-color: var(--card-outline);
   color: var(--font-color-special);
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   border: none;
 }
 
