@@ -1,0 +1,25 @@
+.star:hover {
+  cursor: pointer;
+}
+
+.star_rating {
+  height: 8rem;
+  width: 20rem;
+  border: 0.2rem solid var(--main-primary-color);
+  margin: 2rem;
+}
+
+/* For Slider */
+
+.slider-container {
+  height: 12rem;
+  width: 20rem;
+  border: 0.2rem solid var(--main-primary-color);
+  margin: 2rem;
+}
+
+.simple-slider {
+  width: 16rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}

@@ -9,6 +9,7 @@
 @import url(./css/snackbar.css);
 @import url(./css/lists.css);
 @import url(./css/modal.css);
+@import url(./css/rating_slider.css);
 
 * {
   box-sizing: border-box;
@@ -187,6 +188,9 @@ ul {
   margin-left: 1.7rem;
 }
 
+.left-nav {
+  overflow-y: hidden;
+}
 .left-nav h1,
 .left-nav li {
   margin-left: 4rem;
